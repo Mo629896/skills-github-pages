@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T.T. Hunter</title>
+    <style>
+        /* Placez ici vos styles CSS ou incluez-les dans un fichier séparé */
+    </style>
+</head>
+<body>
+    <div id="textHunterTitle">TerminTracker| Hunter <span style="font-size: 14px;">v1.7</span></div>
+    <div id="ttHunterDiv">
+        <form id="ttHunterForm">
+            <select id="itemHunterList" name="centHunterList">
+                <!-- Options de sélection de centre TLS à ajouter dynamiquement -->
+            </select>
+            <br>
+            <button id="selectHunterButton">Prendre un Rendez-Vous</button>
+            <br><br>
+            <label for="refreshHunterTime">Chercher chaque (secondes) :</label>
+            <input type="number" id="refreshHunterTime" name="refreshHunterTime" value="300" required>
+            <br><br>
+            <div id="textHunterContainer">
+                <div id="statusT">Statut : </div>
+                <div id="messageZone">Prêt.</div>
+            </div>
+        </form>
+    </div>
+    <br>
+    <div id="linkHunter">
+        <a href="https://www.termin-tracker-all.com" target="_blank">www.termin-tracker-all.com</a>
+    </div>
+
+    <script src="tthunter.js"></script> <!-- Inclure le fichier JavaScript ici -->
+</body>
+</html>
